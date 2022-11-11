@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+nav{
+    background-color: #BCE29E;
+}
+.logo-img{
+    height: 70px;
+    width: 70px;
+}
+
+/* UTILITY */
+.flex{
+    display: flex;
+    align-items: center;
+}
