@@ -1,18 +1,85 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 /* NAVBAR */
 nav{
-    background-color: #BCE29E;
+    color: #f7f7f7;
+    padding: 0 8%;
+    background-color: #395144;
+    justify-content: space-between;
+    height: 10vh;
 }
 .logo-img{
-    height: 70px;
-    width: 70px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 }
+.logo{
+    margin-left: 10px;
+    font-family: 'Smokum', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-item{
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+#landing-page{
 
+    height: 90vh;
+    width: 100vw;
+
+
+}
+.landing-text{
+    text-align: center;
+    /* background-color: #395144; */
+   justify-content: center;
+    flex-direction: column;
+}
+.desc-text{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #483838;
+}
+.landing-img{
+    background: url('small-plant.jpg') center no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.solgan{
+    color: #395144;
+    font-family: 'Smokum', cursive;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.landing-btn{
+    margin-top: 15px;
+    background-color: #4E6C50;
+    border-color: #4E6C50;
+    color: #f7f7f7;
+}
 /* UTILITY */
 .flex{
     display: flex;
     align-items: center;
+}
+.half{
+ padding: 0 8%;
+    height: 90vh;
+    width: 50%;
+}
+button{
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: solid 1px;
 }
