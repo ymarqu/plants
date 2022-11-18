@@ -41,7 +41,6 @@ input[type="text"], textarea{
 }
 .submit-btn{
     width: 300px;
-    margin: auto;
 }
 label{
     font-size: 16px;

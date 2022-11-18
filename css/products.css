@@ -1,0 +1,19 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+main{
+    padding: 8%;
+}
+figure{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+}
+img{
+    height: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
