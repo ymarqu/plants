@@ -23,13 +23,19 @@ nav{
     font-family: 'Smokum', cursive;
     font-size: 2rem;
     letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
 }
+
 .nav-items{
     list-style: none;
 }
 .nav-item{
     font-size: 1.2rem;
     padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+
 }
 #landing-page{
     box-sizing: border-box;
@@ -38,8 +44,6 @@ nav{
     width: 100vw;
 }
 .landing-text{
-    /* text-align: center; */
-    /* background-color: #395144; */
    justify-content: center;
     flex-direction: column;
 }
@@ -49,9 +53,9 @@ nav{
     color: #4E6C50;
 }
 .landing-img{
-    background: url('images/planting.jpg') center no-repeat;
-    background-size: cover;
-    align-items: center;
+    background: url('images/planting.jpg');
+    /* background-size: cover;
+    align-items: center; */
 }
 .solgan{
     color: #395144;
