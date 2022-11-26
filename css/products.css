@@ -5,7 +5,7 @@
     grid-gap: 20px;
 }
 main{
-    padding: 8%;
+    padding: 5% 8%;
 }
 figure{
     display: inline-block;
@@ -16,4 +16,5 @@ img{
     height: 350px;
     height: 350px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
