@@ -61,11 +61,19 @@ label{
 }
 .socials-container{
     text-align: center;
+    position: relative;
+    height: 20%;
+}
+.socials-container > p{
+    display: inline-block;
+    height: 100%;
+    text-align: center;
 }
 .socials{
     font-size: 33px;
-    margin: 10rem 33px;
+    margin: 50% 33px;
     cursor: pointer;
+
 }
 
 .submit-btn:hover{
